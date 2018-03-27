@@ -1,0 +1,231 @@
+*{
+    font-family: sans-serif;
+}
+
+.white-link{
+    color: black;
+}
+
+body{
+    background-color: white;
+}
+
+div{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+.content{
+    background-color: white;
+    overflow: auto;
+    width: 100%;
+    min-height: 20px;
+}
+
+.left-content{
+    padding: 25px 10px 5px 20px;
+    width: 75%;
+    float: left;
+}
+.right-content{
+    height: 100%;
+    padding: 25px 10px 25px 20px;
+    width: 25%;
+    float: right;
+}
+
+.pager{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.pager-button{
+    color: black;
+    padding: 2px 5px;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+}
+.pager-button:hover{
+    background-color: lightgray;
+}
+
+.pager-button-active{
+    /*color: white;*/
+    border: 1px solid gray;
+    cursor: default;
+}
+
+/*Header*/
+#Banner{
+    padding: 35px 20px 25px 20px;
+    background-color: #535353;
+}
+#BannerBigText{
+    font-weight: bold;
+    font-size: 40px;
+    color: #d5f46b;
+    margin-bottom: 5px;
+}
+#BannerSmallText{
+    font-size: 20px;
+    color: #FFF;
+}
+#NavBar{
+    padding: 0px;
+    background-color: #303030;
+    height: 35px;
+}
+.nav-menu-item{
+    display: inline-block;
+    margin: 7px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu-item:hover{
+    text-decoration: underline;
+}
+
+/*Aside*/
+.aside-content{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.share-title{
+    font-size: larger;
+}
+
+.share-icon{
+    height: 12px;
+    margin-right: 5px;
+}
+
+/*Home*/
+#MainBody{
+    width: 80%;
+    margin: auto;
+    background-image: url(../Resources/wine.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #d5f46b;
+    border-bottom: 10px solid white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#HomeShowImg{
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+#HomeContentBelow{
+    border-top: 2px dotted lightgray;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted lightgray;
+}
+
+.product-container{
+    overflow: auto;
+    margin-top: 15px;
+
+}
+
+.product-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-content-img{
+    float: left;
+    width: 45%;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/*Menu*/
+.menu-container{
+    border-top: 1px solid black;
+    border-bottom: 2px dotted black;
+    border-color: gray;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.menu-header{
+    padding: 5px 0px;
+    overflow: auto;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.menu-header-id{
+    width: auto;
+    display: inline-block;
+    float:left;
+}
+
+.menu-header-right{
+    width: auto;
+    display: inline-block;
+    float: right;
+}
+
+.menu-content{
+    padding: 5px 0px;
+    overflow: auto;
+}
+
+.menu-content-left{
+    display: inline-block;
+    width: auto;
+    float: left;
+}
+
+.menu-content-right{
+    display: inline-block;
+    width: auto;
+    float: right;
+}
+
+/*Contact*/
+.contact-above{
+    border-bottom: 2px dotted gray;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+.contact-left{
+    display: inline-block;
+    float: left;
+    width: 60%;
+}
+
+.contact-right{
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+.contact-right p{
+    margin: 0px 5px;
+}
+
+.contact-map{
+    width: 100%;
+}
+
+/*Footer*/
+.footer-content{
+    background-color: white;
+    padding: 5px 20px 15px 20px;
+}
+
+.footer-text{
+    margin-top: 15px;
+}
